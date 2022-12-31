@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "server:prod": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src/**/*.ts",
+    "lint:fix": "eslint **/*.ts --fix",
+    "prettier": "prettier --check \"{*.js,!(node*)**/*.ts,*.json}\"",
+    "prettier:fix": "prettier --write \"{*.js,!(node*)**/*.ts,*.json}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
