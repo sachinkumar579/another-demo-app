@@ -14,3 +14,4 @@ Install nodejs, Docker desktop , enable Kubernetes in docker desktop , setup min
 
 This is gonna launch the endpoint in your browser 
 
+test
