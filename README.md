@@ -13,3 +13,4 @@ Install nodejs, Docker desktop , enable Kubernetes in docker desktop , setup min
 6 . minikube service app <br /> 
 
 This is gonna launch the endpoint in your browser 
+
